@@ -7,7 +7,7 @@ system "swig -ruby -I/usr/include -I/usr/local/opt/qpid-proton/include -o ext/cp
 
 Gem::Specification.new do |s|
   s.name        = "qpid_proton"
-  s.version     = "0.3"
+  s.version     = "0.17.0.2"
   s.licenses    = ['Apache-2.0']
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Darryl L. Pierce"]
